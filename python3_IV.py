@@ -6,8 +6,10 @@ def palindrome(woord):
         stringA += stringB
         stringB = stringA
     if stringB == woord:
-        return(true)
+        return(True)
+    else:
+        return(False)
         
 
 woordje = input("geef woord ")
-palindrome(woordje)
+print(palindrome(woordje))
